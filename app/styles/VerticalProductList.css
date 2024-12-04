@@ -1,0 +1,63 @@
+.vertical-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px; 
+    padding: 16px;
+    justify-content: center;
+  }
+  
+  .card {
+    flex: 1 0 calc(50% - 16px); 
+    max-width: calc(50% - 16px);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .card-media {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+  }
+  
+  .card-content {
+    padding: 16px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 8px 0;
+  }
+  
+  .card-price {
+    font-size: 16px;
+    color: #ff5722;
+    margin-bottom: 16px;
+  }
+  
+  .detail-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .detail-button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      flex: 1 0 100%;
+      max-width: 100%;
+    }
+  }
+  

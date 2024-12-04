@@ -1,40 +1,36 @@
-# Welcome to Remix!
+# **Product Listing and Detail Page**
 
-- 📖 [Remix docs](https://remix.run/docs)
+A product listing and detail page project built with **Remix** and **React**. Users can view horizontal and vertical product lists and navigate to individual product detail pages.
 
-## Development
+## **Features**
 
-Run the dev server:
+- Horizontal and vertical product listings.
+- Product detail page using dynamic routing (`/product/:productId`).
+- Responsive design for mobile and desktop.
 
-```shellscript
+---
+
+## **Technologies**
+
+- [Remix](https://remix.run/)
+- [React](https://reactjs.org/)
+- CSS
+
+---
+
+## **Setup and Installation**
+
+### **1. Clone the Repository**
+```bash
+git clone <repository-url>
+cd project-directory 
+```
+### **2. Install Dependencies**
+```bash
+git clone <repository-url>
+cd project-directory
+```
+### **3. Start Development Server**
+```bash
 npm run dev
 ```
-
-## Deployment
-
-First, build your app for production:
-
-```sh
-npm run build
-```
-
-Then run the app in production mode:
-
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-- `build/server`
-- `build/client`
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
